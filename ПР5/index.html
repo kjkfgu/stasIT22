@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Погода за містом</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #weather {
+            margin-top: 20px;
+        }
+        #error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Пошук погоди</h1>
+    
+    <label for="city">Введіть місто:</label>
+    <input type="text" id="city" placeholder="LUTSK">
+    <button id="get-weather">Отримати погоду</button>
+
+    <div id="weather"></div>
+    <div id="error"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
